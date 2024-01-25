@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html"><img src="logo1.png" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#index.html#services">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="home"></section>
+
+        </section>
+
+    </div>
+    </div>
+    <!----------------------about ----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="hhh.png" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-titile"> About Me</h1>
+                    <p>Hello there,</p>
+
+                    <p>I'm Sorabh Kumar, and I'm thrilled to welcome you to my corner of the digital world. Currently
+                        pursuing a Bachelor's degree in Computer Science at Dr. B.C. Roy Engineering College, Durgapur,
+                        my journey in the realm of technology has been shaped by a robust academic foundation and
+                        hands-on experiences gained through internships.</p>
+
+                    <p>My expertise lies in the dynamic field of web development, where I've honed my skills in
+                        cybersecurity, Python, Java, and C/C++. My academic pursuits have provided me with a solid
+                        understanding of both front-end and back-end development, complemented by proficiency in popular
+                        frameworks such as Django and Flask.</p>
+
+                    <p>Beyond the classroom, my passion for technology has driven me to actively contribute to
+                        real-world projects, particularly in the cybersecurity domain. Strengthening digital defense
+                        mechanisms has become a personal commitment, fostering a continual pursuit of knowledge and
+                        familiarity with cutting-edge tools like Wireshark, Snort, and Metasploit.</p>
+
+                    <p>In addition to my technical prowess, I bring practical expertise in web design, covering HTML,
+                        CSS, and JavaScript. Internships at LearnWik, Codsoft, and Prodigy InfoTech have been
+                        instrumental in refining my skills as a Web Developer, aligning my abilities with the demands of
+                        the ever-evolving industry.</p>
+
+                    <p>What excites me most is the prospect of contributing to Google's ethos of innovation. The
+                        commitment to pushing boundaries and solving complex problems resonates deeply with me. I am
+                        eager to bring my dedication, innovation, and technical expertise to your team, contributing to
+                        Google's continued success.</p>
+
+                    <p>Thank you for taking the time to get to know me. I look forward to sharing more about my journey
+                        and discussing how my skills align with your goals.</p>
+
+                    <p>Sincerely,<br>
+                        Sorabh Kumar</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skils')"> Skil</p>
+                        <p class="tab-links" onclick="opentab('exprience')"> Experience</p>
+                        <p class="tab-links" onclick="opentab('education')"> Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skils">
+                        <ul>
+
+                            <li><span>Web Development </span><br>crrate awesome website </li>
+                            <li><span>App Developer</span><br> Building Andriod App </li>
+                            <li><span>Programer</span><br> programing in pyhton c/c++ java </li>
+                            <li><span>You Tuber </span><br> content Cretor </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+
+                            <li><span>Ybi Foundations</span><br>Internship Done as Python Programer<br> From jan-feb
+                                2024
+                            </li>
+                            <li><span> Codsoft</span><br> Internship Done as Web developer <br>From jan - feb 2024</li>
+                            <li><span>Bharat Intern</span><br> Internship Done as App developer <br>From jan - feb 2024
+                            </li>
+                            <li><span> LearnWi Solutionsk</span><br>internship done as web development <br>from sep -nov
+                                2024 </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>B.Tech</span><br>Computer Science<br> Dr.B.C.Roy Engineering Collge Durgapur
+                                <br>2022-2026
+                            </li>
+                            <li><span>12th </span><br>Bhagalpur National College Bhagalpur <br>BSEB Patna <br>2019-2021
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorabh portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="learnmore.html">
+    <link rel="stylesheet" href="work.html">
+    <script src="https://kit.fontawesome.com/328294a480.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <section class="home"></section>
+            <div class="header-text">
+                <h2><span class="tekt"></span>
+                </h2>
+                <h1>Hi, I'm <span>Sorabh</span> <br>
+                    <span1>Kumar</span1> From IIT Jemua
+                </h1>
+
+            </div>
+            </section>
+
+        </div>
+    </div>
+    <!----------------------about ----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="dp.png" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-titile"> About Me</h1>
+                    <p>I am writing to express my interest in the Web Development .
+                        Currently pursuing a Bachelor's degree in Computer Science,
+                        I have a solid background in cybersecurity and proficiency in Python,
+                        Java, and C/C++. My academic journey includes both front-end
+                        and back-end development, with experience in Django and
+                        Flask frameworks. Real-world projects and internships
+                        in cybersecurity have equipped me with skills in tools like Wireshark,
+                        Snort, and Metasploit. Additionally, I possess practical expertise in
+                        web design, including HTML, CSS, and JavaScript, gained through internships
+                        at LearnWik, Codsoft, and Prodigy Infoteach <a href="about.html">Learn More </a>
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skils')"> Skils</p>
+                        <p class="tab-links" onclick="opentab('exprience')"> Experience</p>
+                        <p class="tab-links" onclick="opentab('education')"> Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skils">
+                        <ul>
+
+                            <li><span>Web Development </span><br>Crate awesome website </li>
+                            <li><span>App Developer</span><br> Building Andriod App </li>
+                            <li><span>Programer</span><br> Programing in pyhton c/c++ java </li>
+                            <li><span>You Tuber </span><br> Content Cretor </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+
+                            <li><span>Ybi Foundations</span><br>Internship Done as Python Programer<br> From jan-feb
+                                2024
+                            </li>
+                            <li><span> Codsoft</span><br> Internship Done as Web developer <br>From jan - feb 2024</li>
+                            <li><span>Bharat Intern</span><br> Internship Done as App developer <br>From jan - feb 2024
+                            </li>
+                            <li><span> LearnWik Solutions</span><br>internship done as web development <br>from sep -nov
+                                2024 </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>B.Tech</span><br>Computer Science<br> Dr.B.C.Roy Engineering Collge Durgapur
+                                <br>2022-2026
+                            </li>
+                            <li><span>12th </span><br>Bhagalpur National College Bhagalpur <br>BSEB Patna <br>2019-2021
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titile"> My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web desgin </h2>
+                    <p>Stand out online with our all-in-one web design services. Choose creativity, choose us.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design </h2>
+                    <p>Crafting innovative Android apps to elevate user experiences and meet your digital needs.</p>
+                    <a href="#"> learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python Programing </h2>
+                    <p> "Delivering innovative solutions, from automation scripts to complex web applications, with a
+                        focus on
+                        clean, maintainable code to elevate your next project."</p>
+                    <a href="learnmore.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------    portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titile">My Work </h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="wk1.png">
+                    <div class="layer">
+                        <h3>Lnadding Page</h3>
+                        <p>i am creting a lanfing page of gym fitnees company .
+                            view it from below link </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="wk12.png">
+                    <div class="layer">
+                        <h3> Tik Tok toe Game</h3>
+                        <p>i am creting a tik tok toe website game through html css and javascript </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="wk3.png">
+                    <div class="layer">
+                        <h3>Wheather Website </h3>
+                        <p>i am creting a know Wheather this time on your city through Wheather Api </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="work.html" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----------- contact    -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titile">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sorabhsinghrajut4@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8873273164</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/sorabh-kumar-61821b253/"> <i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sorabh56"> <i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100094180210208"> <i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/@sorabhsingh2"> <i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/engineer.kabir_singh/"> <i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="sorabh_kumar_resume_google.pdf" download class="btn btn2"> Download My Cv </a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Massage "></textarea>
+                        <button type="sumbit" class="btn btn2"> Sumbit</button>
+                    </form>
+                    <span id="msg">
+
+                    </span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Sorabh Kumar<i class="fa-solid fa-heart"></i> Made with by my own </p>
+        </div>
+    </div>
+
+
+    <!-------java script -->
+    <!------ scripit tag for side menu  -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-340px";
+
+        }
+    </script>
+    <!---------script tag for scroling line in header file -->
+
+    <script>
+        var typed = new Typed(".tekt", {
+            strings: ["Web Developer", "App Developer", "Programer", "You Tuber"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 1000, // Adjust the backDelay according to your preference
+            loop: true
+        });
+    </script>
+    <!----------------------------------------scriptt tag for goggle formm data recive through contact us page -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxvcJcvTopkWQ6jARRY-fySzoqqm_2wiAmQaRFVr6KCBIyq_BRwvVQPmiOCU4xi5YR1pg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
